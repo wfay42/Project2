@@ -1,0 +1,11 @@
+.DS_Store
+/audio
+/css
+/effects
+/fonts
+/icon
+/img
+/models
+
+*.rmmzproject
+*.swp
