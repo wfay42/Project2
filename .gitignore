@@ -1,9 +1,9 @@
 .DS_Store
-/audio
-/effects
-/fonts
-/icon
-/img
+/rpgmaker/audio
+/rpgmaker/effects
+/rpgmaker/fonts
+/rpgmaker/icon
+/rpgmaker/img
 /models
 /save
 
