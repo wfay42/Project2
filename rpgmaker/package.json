@@ -3,7 +3,7 @@
     "main": "index.html",
     "chromium-args": "--force-color-profile=srgb",
     "window": {
-        "title": "The Robo Queen Negotiation (Demo 0.1.0)",
+        "title": "The Robo Queen Negotiation (Demo 0.2.0)",
         "width": 1280,
         "height": 720,
         "position": "center",
