@@ -1,5 +1,6 @@
 # Makefile for creating RQN artifacts
 VERSION = 0.1.0-Demo
+GAME_DIR = rpgmaker
 
 MAC_DIR = MacOS
 MAC_ARTIFACT = RQN-MacOS-${VERSION}.tar.gz
@@ -17,10 +18,10 @@ clean:
 mac: ${MAC_ARTIFACT}
 
 ${MAC_ARTIFACT}: ${MAC_DIR}
-	(cd ${MAC_DIR} && tar czvf ../${MAC_ARTIFACT} RQN)
+	(cd ${MAC_DIR} && tar czvf ../${MAC_ARTIFACT} rpgmaker)
 
 ## Windows Targets
 win: ${WIN_ARTIFACT}
 
 ${WIN_ARTIFACT}: ${WIN_DIR}
-	(cd ${WIN_DIR} && zip -r ../${WIN_ARTIFACT} RQN)
+	(cd ${WIN_DIR} && zip -r ../${WIN_ARTIFACT} rpgmaker)
