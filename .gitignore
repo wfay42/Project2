@@ -1,10 +1,17 @@
-.DS_Store
+/output/Windows
+/output/MacOS
+
 /rpgmaker/audio
 /rpgmaker/effects
 /rpgmaker/fonts
 /rpgmaker/icon
 /rpgmaker/img
+
 /models
 /save
 
+.DS_Store
+*.png
 *.swp
+*.tar.gz
+*.zip
