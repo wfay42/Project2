@@ -6,9 +6,9 @@
 /rpgmaker/fonts
 /rpgmaker/icon
 /rpgmaker/img
+/rpgmaker/save
 
 /models
-/save
 
 .DS_Store
 *.png
