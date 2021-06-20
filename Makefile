@@ -6,6 +6,9 @@ MODELS_DIR = models
 default: bundle
 clean: bundle_clean
 
+target_names:
+	$(MAKE) -C ${OUTPUT_DIR} target_names
+
 ## Bundle targets
 bundle:
 	$(MAKE) -C $(OUTPUT_DIR) bundle

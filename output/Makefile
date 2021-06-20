@@ -14,6 +14,10 @@ bundle: mac win
 clean:
 	rm -f ${MAC_ARTIFACT} ${WIN_ARTIFACT}
 
+target_names:
+	@echo ${MAC_DIR} creates ${MAC_ARTIFACT}
+	@echo ${WIN_DIR} creates ${WIN_ARTIFACT}
+
 ## Mac targets
 mac: ${MAC_ARTIFACT}
 
