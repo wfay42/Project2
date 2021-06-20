@@ -13,6 +13,7 @@ default: bundle
 bundle: mac win
 clean:
 	rm -f ${MAC_ARTIFACT} ${WIN_ARTIFACT}
+	rm -rf ${MAC_DIR} ${WIN_DIR}
 
 target_names:
 	@echo ${MAC_DIR} creates ${MAC_ARTIFACT}
