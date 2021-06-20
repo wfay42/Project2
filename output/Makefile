@@ -1,5 +1,5 @@
 # Makefile for creating RQN artifacts
-VERSION = 0.1.0-Demo
+VERSION = 0.2.0-Demo
 GAME_DIR = rpgmaker
 
 MAC_DIR = MacOS
