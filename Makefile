@@ -19,3 +19,7 @@ bundle_clean:
 ## Image targets
 images:
 	$(MAKE) -C $(MODELS_DIR) images
+
+## Run targets
+run:
+	open output/MacOS/rpgmaker/Game.app
